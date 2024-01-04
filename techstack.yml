@@ -1,7 +1,8 @@
 repo_name: bob-wise0/facebook
-report_id: f59aaa0e6d1d917848b42a226e861c26
+report_id: 84935b2c14ec86c075bc3f13aa5a916a
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-08T21:02:01+00:00'
+timestamp: '2024-01-04T13:02:25+00:00'
 requested_by: huandu
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/bob-wise0/facebook
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/bob-wise0/facebook
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -35,11 +38,17 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/bob-wise0/facebook/blob/master/.github/workflows/go.yml
   detection_source: ".github/workflows/go.yml"
+  last_updated_by: Huan Du
+  last_updated_on: 2021-12-21 03:21:57.000000000 Z
 - name: 'go '
   description: Go will make you love programming again. I promise.
   website_url: https://golang.org/
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3458/v02jhlxou71qagr6mwet_normal.png
+  detection_source_url: https://github.com/bob-wise0/facebook/blob/master/api.go
   detection_source: api.go
+  last_updated_by: Huan Du
+  last_updated_on: 2012-07-28 19:18:05.000000000 Z
